@@ -338,6 +338,8 @@ button {
 .doing-box div {
   position: absolute;
   display: flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -346,7 +348,8 @@ button {
 }
 
 .doing-box p {
-  margin: auto;
+  display: inline-block;
+
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
